@@ -32,17 +32,57 @@
     <NoWarn>0169</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrossDomainPolicyParser">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\CrossDomainPolicyParser.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.NRefactory">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\ICSharpCode.NRefactory.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="Unity.CecilTools">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\Unity.CecilTools.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.DataContract">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\Unity.DataContract.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.IvyParser">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\Unity.IvyParser.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Locator">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.SerializationLogic">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\Unity.SerializationLogic.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.UNetWeaver">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\Unity.UNetWeaver.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\Program Files\Unity5rc4\Editor\Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>..\..\..\..\..\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.dll</HintPath>
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml" />
-    <Reference Include="nunit.core, Version=2.6.0.12051, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" />
-    <Reference Include="nunit.core.interfaces, Version=2.6.0.12051, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" />
+    <Reference Include="nunit.core, Version=2.6.0.12051, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\nunit.core.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.core.interfaces, Version=2.6.0.12051, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\nunit.core.interfaces.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>..\..\..\..\Program Files\Unity5rc4\Editor\Data\Managed\nunit.framework.dll</HintPath>
     </Reference>
